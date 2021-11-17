@@ -2,26 +2,28 @@ import React from "react";
 
 
 const MusicFinder = (props) => {
-    return ( <div className="row">
-    <div className ="col md-2">
+    return (<table>
+        <tr>
+          <th>Title </th>
+          <th>Album </th>
+          <th>Artist</th>
+          <th>Genre</th>
+          <th>Release Date</th>
+          
+        </tr>
+        <tr>
+          <td>Song title</td>
+          <td>The album name</td>
+          <td>The Artist Name</td>
+          <td>The type of Music </td>
+          <td>The date it was released</td>
+        </tr>
         
-
-    </div>
-    <div className ="col md-2">
-    {/*dislay*/}
-    </div>
-    <div className ="col md-4">
-        <h1>IRussell Music</h1>
-
-    </div>
-    <div className ="col md-2">
-        
-    </div>
-    <div className ="col md-2">
-        
-        </div>
-
-</div>  );
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+    
+      </table> );
 }
  
 export default MusicFinder;

@@ -22,8 +22,10 @@ class App extends Component {
     }
 render() {
     return (
-        <div className="container-fluid">
+        <div className="App">
             <title/>
+            <NavBar />
+            <MusicFinder />
             
         </div>
     )
