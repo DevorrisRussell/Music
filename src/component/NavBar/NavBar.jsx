@@ -1,5 +1,5 @@
 import React from "react";
-import MusicFinder from "../Music/MusicFinder";
+import Music from "../Music/Music";
 import "./NavBar.css";
 
 
