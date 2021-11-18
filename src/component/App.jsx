@@ -3,6 +3,8 @@ import Music from "./Music/Music";
 import axios from "axios";
 import NavBar from "./NavBar/NavBar";
 import reactDom from "react-dom";
+import Footer from "./Footer/Footer";
+
 
 class App extends Component {
     constructor(props) {

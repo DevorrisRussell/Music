@@ -1,5 +1,5 @@
 import React from "react";
-import Music from "../Music/Music";
+
 import "./NavBar.css";
 
 
@@ -14,7 +14,7 @@ const NavBar  = (props) => {
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             </input>
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button onClick="btn btn-outline-success" type="submit">Search Music</button>
       </form>
       
     </div>
