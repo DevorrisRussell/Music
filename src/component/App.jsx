@@ -4,6 +4,7 @@ import axios from "axios";
 import NavBar from "./NavBar/NavBar";
 import reactDom from "react-dom";
 import Footer from "./Footer/Footer";
+import Search from "./Search"
 
 
 class App extends Component {
@@ -11,11 +12,16 @@ class App extends Component {
         super(props);
         this.state = {
             music: [],
-        };
+      };
     }
+
+    
     componentDidMount() {
         this.musicPick();
     }
+
+         
+    
 
     async musicPick(){
         try {
@@ -30,6 +36,11 @@ class App extends Component {
          catch (error) {
             console.log(error);
         }
+    
+        
+    }
+    displaySearch(){
+        alert("hello")
     }
 
 render() {
@@ -39,6 +50,9 @@ render() {
 
         <NavBar/>
          <Music newMusic= {this.state.music}/>   
+
+         <Footer/>
+         <FilterSearch filterSearch={this.displaySearch}/>
          
         </div>
       
