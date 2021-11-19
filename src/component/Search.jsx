@@ -3,13 +3,16 @@ import React, {useEffect, useState} from "react";
 
 
 const FilterSearch = (props) => {
-    state = {
-        idSong: "",
-        artistSong: "",
-        genreSong: "",
-        releaseDataSong: "",
-
-    }
+   let renderedMusic = props.music.map((newSong) => {
+     return (   
+         <tr key={newSong.id}>
+             <td>{newSong.title}</td>
+            <td>{newSong.artist}</td>
+            <td>{newSong.genre}</td>
+            <td>{newSong.releaseDate}</td>
+         </tr>
+      ); 
+    })
   //  handleChange = (event) => {
         this.setState ({
 
@@ -34,5 +37,5 @@ const FilterSearch = (props) => {
         </div>
       </form>
      ); } 
-    }
+    } 
     // export default FilterSearch;
