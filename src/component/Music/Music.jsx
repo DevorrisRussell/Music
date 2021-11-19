@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Music.css"
 
 const Music = (props) => {
   
@@ -9,7 +9,7 @@ const Music = (props) => {
     return ( 
     <div>
          
-    <table>
+    <table id='layout'>
       <thead>
         <th>Id</th>
         <th>Title</th>

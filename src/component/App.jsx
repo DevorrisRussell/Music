@@ -4,7 +4,7 @@ import axios from "axios";
 import NavBar from "./NavBar/NavBar";
 import reactDom from "react-dom";
 import Footer from "./Footer/Footer";
-import Search from "./Search"
+//import Search from "./Search"
 
 
 class App extends Component {
@@ -52,7 +52,7 @@ render() {
          <Music newMusic= {this.state.music}/>   
 
          <Footer/>
-         <FilterSearch filterSearch={this.displaySearch}/>
+        
          
         </div>
       

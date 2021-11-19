@@ -16,14 +16,14 @@
     padding: 8px;
 }
 
-#layout tr:nth-child(even){background-color: blue;}
+#layout tr:nth-child(even){background-color: rgb(239, 239, 243);}
 
-#layout tr:hover {background-color: rgb(162, 151, 151);}
+#layout tr:hover {background-color: lightblue;}
 
 #layout th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
     background-color: whitesmoke;
-    color: darkred;
+    color: lightblue;
 }

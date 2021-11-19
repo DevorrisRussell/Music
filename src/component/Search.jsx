@@ -1,4 +1,4 @@
-import axios from "axios";
+//import axios from "axios";
 import React, {useEffect, useState} from "react";
 
 
@@ -10,7 +10,7 @@ const FilterSearch = (props) => {
         releaseDataSong: "",
 
     }
-    handleChange = (event) => {
+  //  handleChange = (event) => {
         this.setState ({
 
         })
@@ -33,6 +33,6 @@ const FilterSearch = (props) => {
         </input>
         </div>
       </form>
-     ); }}
-
-     export default FilterSearch;
+     ); } 
+    }
+    // export default FilterSearch;
