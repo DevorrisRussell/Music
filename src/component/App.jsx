@@ -25,7 +25,7 @@ class App extends Component {
 
     async musicPick(){
         try {
-            let response = await axios.get("http://www.devcodecampmusiclibrary.com/api/music");
+            let response = await axios.get("http://localhost:3000/api/songs");
                 console.log(response.data);
                 this.setState({
                     music: response.data,
